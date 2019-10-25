@@ -1,4 +1,13 @@
 # wsc-oauth-provider
+<p align="center">
+  <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/BlackFisch/wsc-oauth-provider/total">
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/BlackFisch/wsc-oauth-provider">
+  <img alt="GitHub" src="https://img.shields.io/github/license/BlackFisch/wsc-oauth-provider">
+  <img alt="WSC compatible versions" src="https://img.shields.io/badge/compatible%20wsc%20versions-3.*-informational">
+  <a href="https://ko-fi.com/blackfisch">
+    <img alt="WSC compatible versions" src="https://img.shields.io/badge/support%20me-%E2%99%A5-ff69b4">
+  </a>
+</p>
 
 ## About
 This is a fork of the [OAuth Provider Plugin by EQDKPlus](https://wsc.eqdkp-plus.eu/Extensionlist/Oauth-provider-p9.html).
