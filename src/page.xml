@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/vortex/page.xsd">
+	<import>
+		<page identifier="eu.eqdkp-plus.wsc.oauthprovider.OauthConsentForm">
+			<pageType>system</pageType>
+			<controller>wcf\form\OauthConsentForm</controller>
+			<name language="en"><![CDATA[Authorize Application]]></name>
+			<name language="de"><![CDATA[Applikation authorisieren]]></name>
+			<availableDuringOfflineMode>1</availableDuringOfflineMode>
+			
+			<content language="en">
+				<title><![CDATA[Authorize Application]]></title>
+			</content>
+			
+			<content language="de">
+				<title><![CDATA[Applikation authorisieren]]></title>
+			</content>
+		</page>
+	</import>
+</data>

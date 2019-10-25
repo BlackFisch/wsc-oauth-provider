@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/language.xsd" languagecode="en">
+
+	<category name="wcf.acp.oauthclients">
+		<item name="wcf.acp.oauthclients.add"><![CDATA[Add OAuth-Client]]></item>
+		<item name="wcf.acp.oauthclients.delete.confirmMessage"><![CDATA[Do you really want to delete the Client?]]></item>
+		<item name="wcf.acp.oauthclients.edit"><![CDATA[Edit OAuth-Client]]></item>
+		<item name="wcf.acp.oauthclients.name.error.tooLong"><![CDATA[The name must not be longer than 255 characters.]]></item>
+		<item name="wcf.acp.oauthclients.redirectUrl.error.tooLong"><![CDATA[The Redirect-URL must not be longer than 255 characters.]]></item>
+		<item name="wcf.acp.oauthclients.list"><![CDATA[OAuth-Clients]]></item>
+		<item name="wcf.acp.oauthclients.clientID"><![CDATA[Client-ID]]></item>
+		<item name="wcf.acp.oauthclients.name"><![CDATA[Name]]></item>
+		<item name="wcf.acp.oauthclients.redirectUrl"><![CDATA[Redirect-URL]]></item>
+		<item name="wcf.acp.oauthclients.lastModified"><![CDATA[Last modified]]></item>
+		<item name="wcf.acp.oauthclients.clientSecret"><![CDATA[Client-Secret]]></item>
+		<item name="wcf.acp.oauthclients.refreshClientSecret"><![CDATA[Generate new Secret]]></item>
+		<item name="wcf.acp.oauthclients.tls_warning"><![CDATA[Unencrypted communication protocols should not be used in productive systems.]]></item>
+		<item name="wcf.acp.oauthclients.implicit"><![CDATA[Enable Implicit Grant Type]]></item>
+		<item name="wcf.acp.oauthclients.implicit.description"><![CDATA[The Implicit Grant Type should only be used for JavaScript Applications. Also, an HTTPS connection should be used.]]></item>
+		<item name="wcf.acp.oauthclients.password"><![CDATA[Enable Password Grant Type]]></item>
+		<item name="wcf.acp.oauthclients.password.description"><![CDATA[The Password Grant Type should only be allowed for own applications.]]></item>
+	</category>
+	
+	<category name="wcf.oauthclients">
+		<item name="wcf.oauthclients.clientID"><![CDATA[Client-ID]]></item>
+		<item name="wcf.oauthclients.name"><![CDATA[Name]]></item>
+		<item name="wcf.oauthclients.redirectUrl"><![CDATA[Redirect-URL]]></item>
+		<item name="wcf.oauthclients.lastModified"><![CDATA[Last modified]]></item>
+		<item name="wcf.oauthclients.clientSecret"><![CDATA[Client-Secret]]></item>
+		<item name="wcf.oauthclients.jwtSecret"><![CDATA[JWT-Secret]]></item>
+		<item name="wcf.oauthclients.jwtSecret.description"><![CDATA[The JWT-Secret can be used to validate the signature of the JWT Token, which is created using the HS256-Algorithm.]]></item>
+	</category>
+	
+	<category name="wcf.user.menu">
+		<item name="wcf.user.menu.security.oauthApplicationList"><![CDATA[Authorized Applications]]></item>
+	</category>
+	
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.oauthclients"><![CDATA[OAuth-Clients]]></item>
+		<item name="wcf.acp.menu.link.oauthclients.add"><![CDATA[Add Client]]></item>
+		<item name="wcf.acp.menu.link.oauthclients.list"><![CDATA[OAuth-Clients]]></item>
+	</category>
+		
+	<category name="wcf.user.menu">
+		<item name="wcf.user.menu.security.oauthApplicationList"><![CDATA[Authorized Applications]]></item>
+	</category>
+	
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.oauthclients"><![CDATA[OAuth-Clients]]></item>
+		<item name="wcf.acp.menu.link.oauthclients.add"><![CDATA[Add Client]]></item>
+		<item name="wcf.acp.menu.link.oauthclients.list"><![CDATA[OAuth-Clients]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.admin.configuration.canManageOauthclients"><![CDATA[Can manage OAuth-Clients]]></item>
+		<item name="wcf.acp.group.option.user.profile.canUseOauth"><![CDATA[Can use OAuth]]></item>
+	</category>
+	
+	<category name="wcf.page">
+		<item name="wcf.page.oauthApplicationList.table.client"><![CDATA[Application]]></item>
+		<item name="wcf.page.oauthApplicationList.table.scope"><![CDATA[Scopes]]></item>
+		<item name="wcf.page.oauthApplicationList.table.lastUsed"><![CDATA[Last used]]></item>
+		<item name="wcf.page.oauthApplicationList.app_delete_title"><![CDATA[Revoke authorization]]></item>
+		<item name="wcf.page.oauthApplicationList.app_delete_question"><![CDATA[Do you really want to revoke the authorization for this Application?]]></item>
+		<item name="wcf.page.oauthclients.authorize"><![CDATA[Authorize]]></item>
+		<item name="wcf.page.oauthclients.cancel"><![CDATA[Cancel]]></item>
+		<item name="wcf.page.oauthclients.dismiss"><![CDATA[Remember my decision]]></item>
+		<item name="wcf.page.oauthclients.scope.identify"><![CDATA[Your User-ID, username and avatar]]></item>
+		<item name="wcf.page.oauthclients.scope.email"><![CDATA[Your Email-address]]></item>
+		<item name="wcf.page.oauthclients.scope.profile"><![CDATA[Your personal user profile]]></item>
+		<item name="wcf.page.oauthclients.scope.noaccess"><![CDATA[The application will not be able to write Posts in your name or read your Conversations.]]></item>
+		<item name="wcf.page.oauthclients.scope.intro"><![CDATA[Do your want to give the Application "<b>{$oauth_clientname}</b>" Access to the following:]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.security.oauth"><![CDATA[OAuth-Provider]]></item>
+		<item name="wcf.acp.option.oauthprovider_send_emails"><![CDATA[Send Emails to the user if client is authorized for the first time]]></item>
+	</category>
+	
+	<category name="wcf.user.oauthprovider">
+		<item name="wcf.user.oauthprovider.mail.subject"><![CDATA[Access to account information granted]]></item>
+		<item name="wcf.user.oauthprovider.mail.html.headline"><![CDATA[Hello {@$mailbox->getUser()->username},]]></item>
+		
+		<item name="wcf.user.oauthprovider.mail.html.intro"><![CDATA[<p>You have granted the application "{$application}" on the website <a href="{link isEmail=true}{/link}">{PAGE_TITLE|language}</a> access to some of your account information:</p><p><b>{$scope}</b></p>]]></item>
+
+		<item name="wcf.user.oauthprovider.mail.html.outro"><![CDATA[<p>You will receive this email for your security and to prevent others from using your account information. To manage your authorized applications, visit the <a href="{link controller='OauthApplicationList'}{/link}">application management</a>. There, you can deauthorize applications. If an application still accesses your account information, change your password.</p>]]></item>
+
+		<item name="wcf.user.oauthprovider.mail.text.intro"><![CDATA[You have granted the application "{$application}" on the website <a href="{link isEmail=true}{/link}">{PAGE_TITLE|language}</a> access to some of your account information:]]></item>
+		
+		<item name="wcf.user.oauthprovider.mail.text.outro"><![CDATA[You will receive this email for your security and to prevent others from using your account information. To manage your authorized applications, visit the application management ({link controller='OauthApplicationList' isEmail=true}{/link}). There, you can deauthorize applications. If an application still accesses your account information, change your password.]]></item>
+	</category>
+</language>

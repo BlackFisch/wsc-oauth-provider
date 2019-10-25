@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/language.xsd" languagecode="de">
+		
+	<category name="wcf.acp.oauthclients">
+		<item name="wcf.acp.oauthclients.add"><![CDATA[OAuth-Client hinzufügen]]></item>
+		<item name="wcf.acp.oauthclients.delete.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diesen Client wirklich löschen?]]></item>
+		<item name="wcf.acp.oauthclients.edit"><![CDATA[OAuth-Client bearbeiten]]></item>
+		<item name="wcf.acp.oauthclients.name.error.tooLong"><![CDATA[Der Name darf nicht länger als 255 Zeichen sein.]]></item>
+		<item name="wcf.acp.oauthclients.redirectUrl.error.tooLong"><![CDATA[Die Redirect-URL darf nicht länger als 255 Zeichen sein.]]></item>
+		<item name="wcf.acp.oauthclients.list"><![CDATA[OAuth-Clients]]></item>
+		<item name="wcf.acp.oauthclients.clientID"><![CDATA[Client-ID]]></item>
+		<item name="wcf.acp.oauthclients.name"><![CDATA[Name]]></item>
+		<item name="wcf.acp.oauthclients.redirectUrl"><![CDATA[Redirect-URL]]></item>
+		<item name="wcf.acp.oauthclients.lastModified"><![CDATA[Zuletzt geändert]]></item>
+		<item name="wcf.acp.oauthclients.clientSecret"><![CDATA[Client-Secret]]></item>
+		<item name="wcf.acp.oauthclients.refreshClientSecret"><![CDATA[Neues Secret erzeugen]]></item>
+		<item name="wcf.acp.oauthclients.tls_warning"><![CDATA[Unverschlüsselte Verbindungen sollten in einem produktiven System nicht verwendet werden.]]></item>
+		<item name="wcf.acp.oauthclients.implicit"><![CDATA[Erlaube Implicit Grant Type]]></item>
+		<item name="wcf.acp.oauthclients.implicit.description"><![CDATA[Der Implicit Grant Type sollte nur für JavaScript-Anwendungen verwendet werden und nur über verschlüsselte Verbindungen.]]></item>
+		<item name="wcf.acp.oauthclients.password"><![CDATA[Erlaube Password Grant Type]]></item>
+		<item name="wcf.acp.oauthclients.password.description"><![CDATA[Der Password Grant Type sollte nur für eigene Applikationen erlaubt werden.]]></item>
+
+	</category>
+	
+	<category name="wcf.oauthclients">
+		<item name="wcf.oauthclients.clientID"><![CDATA[Client-ID]]></item>
+		<item name="wcf.oauthclients.name"><![CDATA[Name]]></item>
+		<item name="wcf.oauthclients.redirectUrl"><![CDATA[Redirect-URL]]></item>
+		<item name="wcf.oauthclients.lastModified"><![CDATA[Zuletzt geändert]]></item>
+		<item name="wcf.oauthclients.clientSecret"><![CDATA[Client-Secret]]></item>
+		<item name="wcf.oauthclients.jwtSecret"><![CDATA[JWT-Secret]]></item>
+		<item name="wcf.oauthclients.jwtSecret.description"><![CDATA[Das JWT-Secret wird zur Überprüfung der Signatur des JWT-Tokens verwendet, welche mittels HS256-Algorithmus erstellt wird.]]></item>
+	</category>
+	
+	<category name="wcf.user.menu">
+		<item name="wcf.user.menu.security.oauthApplicationList"><![CDATA[Autorisierte Anwendungen]]></item>
+	</category>
+	
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.oauthclients"><![CDATA[OAuth-Clients]]></item>
+		<item name="wcf.acp.menu.link.oauthclients.add"><![CDATA[Client hinzufügen]]></item>
+		<item name="wcf.acp.menu.link.oauthclients.list"><![CDATA[OAuth-Clients]]></item>
+	</category>
+		
+	<category name="wcf.user.menu">
+		<item name="wcf.user.menu.security.oauthApplicationList"><![CDATA[Autorisierte Anwendungen]]></item>
+	</category>
+	
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.oauthclients"><![CDATA[OAuth-Clients]]></item>
+		<item name="wcf.acp.menu.link.oauthclients.add"><![CDATA[Client hinzufügen]]></item>
+		<item name="wcf.acp.menu.link.oauthclients.list"><![CDATA[OAuth-Clients]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.admin.configuration.canManageOauthclients"><![CDATA[Kann OAuth-Clients verwalten]]></item>
+		<item name="wcf.acp.group.option.user.profile.canUseOauth"><![CDATA[Kann OAuth verwenden]]></item>
+	</category>
+	
+	<category name="wcf.page">
+		<item name="wcf.page.oauthApplicationList.table.client"><![CDATA[Anwendung]]></item>
+		<item name="wcf.page.oauthApplicationList.table.scope"><![CDATA[Scopes]]></item>
+		<item name="wcf.page.oauthApplicationList.table.lastUsed"><![CDATA[Zuletzt verwendet]]></item>
+		<item name="wcf.page.oauthApplicationList.app_delete_title"><![CDATA[Autorisierung widerrufen]]></item>
+		<item name="wcf.page.oauthApplicationList.app_delete_question"><![CDATA[Soll die Autorisierung für diese Anwendung wirklich widerrufen werden?]]></item>
+		<item name="wcf.page.oauthclients.authorize"><![CDATA[Autorisieren]]></item>
+		<item name="wcf.page.oauthclients.cancel"><![CDATA[Abbrechen]]></item>
+		<item name="wcf.page.oauthclients.dismiss"><![CDATA[Entscheidung merken]]></item>
+		<item name="wcf.page.oauthclients.scope.identify"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Deine{else}Ihre{/if} Benutzer-ID, Benutzernamen und Avatarbild]]></item>
+		<item name="wcf.page.oauthclients.scope.email"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Deine{else}Ihre{/if} Email-Adresse]]></item>
+		<item name="wcf.page.oauthclients.scope.profile"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} persönliches Benutzerprofil]]></item>
+		<item name="wcf.page.oauthclients.scope.noaccess"><![CDATA[Die Anwendung wird keine Posts in {if LANGUAGE_USE_INFORMAL_VARIANT}Deinem{else}Ihrem{/if} Namen schreiben oder Konversationen lesen können.]]></item>
+		<item name="wcf.page.oauthclients.scope.intro"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Möchtest Du{else}Möchten Sie{/if} der Anwendung "<b>{$oauth_clientname}</b>" Zugriff auf Folgendes erlauben: ]]></item>
+	</category>
+
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.security.oauth"><![CDATA[OAuth-Provider]]></item>
+		<item name="wcf.acp.option.oauthprovider_send_emails"><![CDATA[Sende Emails an den Benutzer, wenn ein Client zum ersten Mal autorisiert wird.]]></item>
+	</category>
+	
+	<category name="wcf.user.oauthprovider">
+		<item name="wcf.user.oauthprovider.mail.subject"><![CDATA[Zugriff auf Accountinformationen gewährt]]></item>
+		<item name="wcf.user.oauthprovider.mail.html.headline"><![CDATA[Hallo {@$mailbox->getUser()->username},]]></item>
+		<item name="wcf.user.oauthprovider.mail.html.intro"><![CDATA[<p>{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} auf der Webseite <a href="{link isEmail=true}{/link}">{PAGE_TITLE|language}</a> der Anwendung "{$application}" Zugriff auf einige {if LANGUAGE_USE_INFORMAL_VARIANT}Deiner{else}Ihrer{/if} Accountinformationen gewährt:</p><p><b>{$scope}</b></p>]]></item>
+
+		<item name="wcf.user.oauthprovider.mail.html.outro"><![CDATA[<p>{if LANGUAGE_USE_INFORMAL_VARIANT}Du erhältst{else}Sie erhalten{/if} diese E-Mail zu {if LANGUAGE_USE_INFORMAL_VARIANT}deiner{else}Ihrer{/if} Sicherheit und um eine Fremdnutzung {if LANGUAGE_USE_INFORMAL_VARIANT}deiner{else}Ihrer{/if} Daten zu verhindern. Um autorisierte Anwendungen zu verwalten, die Zugriff auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Accountinformationen haben, {if LANGUAGE_USE_INFORMAL_VARIANT}besuche{else}besuchen Sie{/if} die <a href="{link controller='OauthApplicationList'}{/link}">Anwendungsverwaltung</a>. Dort können Anwendungen deautorisiert werden. Greift eine Anwendung weiterhin auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Accountinformationen zu, {if LANGUAGE_USE_INFORMAL_VARIANT}ändere dein{else}ändern Sie Ihr{/if} Passwort.</p>]]></item>
+
+		<item name="wcf.user.oauthprovider.mail.text.intro"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} auf der Webseite {PAGE_TITLE|language} ({link isEmail=true}{/link}) der Anwendung "{$application}" Zugriff auf einige {if LANGUAGE_USE_INFORMAL_VARIANT}Deiner{else}Ihrer{/if} Accountinformationen gewährt:]]></item>
+		
+		<item name="wcf.user.oauthprovider.mail.text.outro"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du erhältst{else}Sie erhalten{/if} diese E-Mail zu {if LANGUAGE_USE_INFORMAL_VARIANT}deiner{else}Ihrer{/if} Sicherheit und um eine Fremdnutzung {if LANGUAGE_USE_INFORMAL_VARIANT}deiner{else}Ihrer{/if} Daten zu verhindern. Um autorisierte Anwendungen zu verwalten, die Zugriff auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Accountinformationen haben, {if LANGUAGE_USE_INFORMAL_VARIANT}besuche{else}besuchen Sie{/if} die Anwendungsverwaltung ({link controller='OauthApplicationList' isEmail=true}{/link}). Dort können Anwendungen deautorisiert werden. Greift eine Anwendung weiterhin auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Accountinformationen zu, {if LANGUAGE_USE_INFORMAL_VARIANT}ändere dein{else}ändern Sie Ihr{/if} Passwort.]]></item>
+	</category>
+</language>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/vortex/eventListener.xsd">
+	<import>
+		<eventlistener name="oauthProviderCleanupCronjob">
+			<eventclassname>wcf\system\cronjob\DailyCleanUpCronjob</eventclassname>
+			<eventname>execute</eventname>
+			<listenerclassname>wcf\system\event\listener\OauthProviderCleanupListener</listenerclassname>
+			<inherit>1</inherit>
+			<environment>user</environment>
+		</eventlistener>
+
+		<!-- admin -->
+		<eventlistener name="oauthProviderCleanupCronjobAdmin">
+			<eventclassname>wcf\system\cronjob\DailyCleanUpCronjob</eventclassname>
+			<eventname>execute</eventname>
+			<listenerclassname>wcf\system\event\listener\OauthProviderCleanupListener</listenerclassname>
+			<inherit>1</inherit>
+			<environment>admin</environment>
+		</eventlistener>
+		<!-- admin -->
+	</import>
+</data>

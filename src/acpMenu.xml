@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/acpMenu.xsd">
+	<import>
+		<acpmenuitem name="wcf.acp.menu.link.oauthclients">
+			<parent>wcf.acp.menu.link.configuration</parent>
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.menu.link.oauthclients.list">
+			<controller>wcf\acp\page\OauthclientsListPage</controller>
+			<parent>wcf.acp.menu.link.oauthclients</parent>
+			<permissions>admin.configuration.canManageOauthclients</permissions>
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.menu.link.oauthclients.add">
+			<controller>wcf\acp\form\OauthclientsAddForm</controller>
+			<parent>wcf.acp.menu.link.oauthclients.list</parent>
+			<permissions>admin.configuration.canManageOauthclients</permissions>
+			<icon>fa-plus</icon>
+		</acpmenuitem>
+	</import>
+</data>

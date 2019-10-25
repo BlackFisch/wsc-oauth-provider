@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="eu.eqdkp-plus.wsc.oauthprovider" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/package.xsd">
+	<packageinformation>
+		<packagename>WSC OAuth Provider</packagename>
+		<packagedescription><![CDATA[Makes your WSC to an OAuth Provider so it can be used for authentication users an other applications.]]></packagedescription>
+        <packagedescription language="de"><![CDATA[Macht aus dem WSC einen OAuth-Provider, der für die Anmeldung an anderen Applikationen verwendet werden kann.]]></packagedescription>
+		<version>1.0.0</version>
+		<date>2019-10-25</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>GodMod</author>
+		<authorurl>https://wsc.eqdkp-plus.eu</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="3.0.0">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<compatibility>
+		<api version="2018" />
+	</compatibility>
+	
+	<instructions type="install">
+		<instruction type="acpTemplate" />
+		<instruction type="file" />
+		<instruction type="sql" />
+		<instruction type="template" />
+		<instruction type="language" />
+		
+		<instruction type="acpMenu" />
+		<instruction type="page" />
+		<instruction type="userMenu" />
+		<instruction type="userGroupOption" />
+		
+		<instruction type="templateListener" />
+		<instruction type="eventListener" />
+		
+		<instruction type="option" />
+	</instructions>
+</package>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="https://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/vortex/option.xsd">
+	<import>
+		<categories>
+			<category name="security.oauth">
+				<parent>security</parent>
+				<showorder>5</showorder>
+			</category>
+		</categories>
+		
+		<options>
+			<option name="oauthprovider_send_emails">
+				<categoryname>security.oauth</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>
