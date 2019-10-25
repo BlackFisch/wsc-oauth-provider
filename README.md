@@ -1,4 +1,13 @@
 # wsc-oauth-provider
+<p align="center">
+  <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/BlackFisch/wsc-oauth-provider/total">
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/BlackFisch/wsc-oauth-provider">
+  <img alt="GitHub" src="https://img.shields.io/github/license/BlackFisch/wsc-oauth-provider">
+  <img alt="WSC compatible versions" src="https://img.shields.io/badge/compatible%20wsc%20versions-3.*-informational">
+  <a href="https://ko-fi.com/blackfisch">
+    <img alt="WSC compatible versions" src="https://img.shields.io/badge/support%20me-%E2%99%A5-ff69b4">
+  </a>
+</p>
 
 ## About
 This is a fork of the [OAuth Provider Plugin by EQDKPlus](https://wsc.eqdkp-plus.eu/Extensionlist/Oauth-provider-p9.html).
@@ -11,6 +20,9 @@ The main goal of this fork is to make the plugin
 
 ## Documentation
 Since this is a fork with not much changed at all, please refer to [EQDKPlus' Documentation](https://wsc-docs.eqdkp-plus.eu/oauthprovider_index.html) over on their page.
+
+## Installation
+WCF 3.0.* require some manual additions to the WCF Installation. For further details please refer to the [Installation Section in the Wiki](https://github.com/BlackFisch/wsc-oauth-provider/wiki/Installation).
 
 ## Packing the Plugin
 For a quick guide on how to pack the plugin yourself, please refer to the [Tutorial "Creating a simple package"](https://docs.woltlab.com/getting-started_quick-start.html) over at WoltLabs documentation. If you have any problems, feel free to [create a new Issue](https://github.com/BlackFisch/wsc-oauth-provider/issues/new).
