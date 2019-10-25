@@ -12,6 +12,9 @@ The main goal of this fork is to make the plugin
 ## Documentation
 Since this is a fork with not much changed at all, please refer to [EQDKPlus' Documentation](https://wsc-docs.eqdkp-plus.eu/oauthprovider_index.html) over on their page.
 
+## Packing the Plugin
+For a quick guide on how to pack the plugin yourself, please refer to the [Tutorial "Creating a simple package"](https://docs.woltlab.com/getting-started_quick-start.html) over at WoltLabs documentation. If you have any problems, feel free to [create a new Issue](https://github.com/BlackFisch/wsc-oauth-provider/issues/new).
+
 ## Issues & Contribution
 If you manage to find an issue - congratulations first of all! :tada:
 
