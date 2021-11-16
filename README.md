@@ -1,5 +1,6 @@
 # wsc-oauth-provider
 <p align="center">
+  <img alt="Status: Archived" src="https://img.shields.io/badge/status-archived-red">
   <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/BlackFisch/wsc-oauth-provider/total">
   <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/BlackFisch/wsc-oauth-provider">
   <img alt="GitHub" src="https://img.shields.io/github/license/BlackFisch/wsc-oauth-provider">
@@ -17,6 +18,8 @@ This addon for the [Woltlab Community Suite (WSC)](https://www.woltlab.com/) aim
 The main goal of this fork is to make the plugin 
 1. Accessible to everyone free of charge
 2. Make it available for WSC 3.0 as well
+
+**Since the original website is down, this project is archived now.**
 
 ## Documentation
 Since this is a fork with not much changed at all, please refer to [EQDKPlus' Documentation](https://wsc-docs.eqdkp-plus.eu/oauthprovider_index.html) over on their page.
